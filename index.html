@@ -4,27 +4,45 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Bảo Đại – Bữa Tiệc Trọn Vẹn, Kỷ Niệm Mãi Bền</title>
+<meta name="description" content="Bảo Đại Catering – Dịch vụ nấu tiệc chuyên nghiệp tại Hưng Yên cho đám cưới, đám tang, liên hoan và sự kiện doanh nghiệp. Nguyên liệu tươi, phục vụ tận nơi 50–500 khách, báo giá miễn phí trong ngày.">
+<meta name="theme-color" content="#3d2314">
+<meta property="og:title" content="Bảo Đại Catering – Bữa Tiệc Trọn Vẹn, Kỷ Niệm Mãi Bền">
+<meta property="og:description" content="Dịch vụ nấu tiệc chuyên nghiệp tại Hưng Yên cho đám cưới, đám tang, liên hoan và sự kiện doanh nghiệp.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="vi_VN">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍲</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Be+Vietnam+Pro:wght@300;400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<a href="#main" class="skip-link">Bỏ qua để đến nội dung chính</a>
+
 <!-- NAV -->
-<nav>
-  <div class="nav-logo">Bảo <span>Đại</span></div>
+<nav aria-label="Điều hướng chính">
+  <a href="#" class="nav-logo">Bảo <span>Đại</span></a>
+  <input type="checkbox" id="nav-toggle" class="nav-toggle-input" aria-label="Mở menu điều hướng">
+  <label for="nav-toggle" class="nav-toggle-label">
+    <span></span><span></span><span></span>
+  </label>
   <ul class="nav-links">
     <li><a href="#about">Giới thiệu</a></li>
     <li><a href="#services">Dịch vụ</a></li>
+    <li><a href="#menu">Thực đơn</a></li>
     <li><a href="#gallery">Hình ảnh</a></li>
     <li><a href="#process">Quy trình</a></li>
     <li><a href="#contact">Liên hệ</a></li>
   </ul>
 </nav>
 
+<main id="main">
+
 <!-- HERO -->
 <section class="hero">
   <div class="hero-content">
-    <div class="hero-eyebrow">✦ Dịch Vụ Nấu Ăn Chuyên Nghiệp ✦</div>
+    <div class="hero-eyebrow"><span aria-hidden="true">✦</span> Dịch Vụ Nấu Ăn Chuyên Nghiệp <span aria-hidden="true">✦</span></div>
     <h1>Bảo <em>Đại</em><br>Catering</h1>
     <p class="hero-tagline">Bữa tiệc trọn vẹn – Kỷ niệm mãi bền<br>Chuyên nấu ăn cho đám cưới, đám tang, liên hoan tại Hưng Yên</p>
     <div class="hero-cta">
@@ -59,7 +77,7 @@
 <section class="about" id="about">
   <div class="about-inner">
     <div class="about-image-wrap">
-      <img src="https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?w=800&q=80" alt="Đội ngũ Bảo Đại">
+      <img src="https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?w=800&q=80" alt="Đội ngũ Bảo Đại" loading="lazy" decoding="async">
       <div class="about-badge">
         <strong>100+</strong>
         <span>Tiệc<br>Đã Phục Vụ</span>
@@ -71,21 +89,21 @@
       <p class="section-desc">Bảo Đại ra đời từ hai người bạn cùng chung đam mê với ẩm thực và mong muốn mang đến những bữa tiệc ngon, chân thành cho người dân Hưng Yên. Tuy nhỏ nhưng chúng tôi làm nghiêm túc – từng món ăn đều được chăm chút tỉ mỉ như nấu cho chính gia đình mình.</p>
       <div class="about-points">
         <div class="about-point">
-          <div class="about-point-icon">🥘</div>
+          <div class="about-point-icon" aria-hidden="true">🥘</div>
           <div class="about-point-text">
             <strong>Nguyên liệu tươi, chọn lọc kỹ</strong>
             <span>Mua nguyên liệu tươi mỗi ngày, không dùng đồ đông lạnh hay kém chất lượng</span>
           </div>
         </div>
         <div class="about-point">
-          <div class="about-point-icon">🤝</div>
+          <div class="about-point-icon" aria-hidden="true">🤝</div>
           <div class="about-point-text">
             <strong>Uy tín, đúng hẹn, không phát sinh</strong>
             <span>Báo giá rõ ràng từ đầu, cam kết đúng thực đơn đã thỏa thuận</span>
           </div>
         </div>
         <div class="about-point">
-          <div class="about-point-icon">📍</div>
+          <div class="about-point-icon" aria-hidden="true">📍</div>
           <div class="about-point-text">
             <strong>Phục vụ toàn tỉnh Hưng Yên</strong>
             <span>Có mặt tại địa điểm của bạn, phục vụ từ 50 đến 500 khách mỗi buổi tiệc</span>
@@ -106,40 +124,167 @@
     </div>
     <div class="services-grid">
       <div class="service-card">
-        <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600&q=80" alt="Tiệc cưới" class="service-card-img">
+        <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600&q=80" alt="Tiệc cưới" class="service-card-img" loading="lazy" decoding="async">
         <div class="service-card-body">
-          <span class="service-icon">💍</span>
+          <span class="service-icon" aria-hidden="true">💍</span>
           <h3>Tiệc Cưới</h3>
           <p>Ngày trọng đại xứng đáng được những món ăn thịnh soạn, thơm ngon. Chúng tôi nấu tại chỗ, đảm bảo đồ ăn nóng hổi đúng giờ. Thực đơn thiết kế theo yêu cầu, phù hợp từ 50 đến 500 khách.</p>
           <span class="service-tag">Báo giá miễn phí</span>
         </div>
       </div>
       <div class="service-card">
-        <img src="https://images.unsplash.com/photo-1529543544282-ea669407fca3?w=600&q=80" alt="Đám tang" class="service-card-img">
+        <img src="https://images.unsplash.com/photo-1529543544282-ea669407fca3?w=600&q=80" alt="Đám tang" class="service-card-img" loading="lazy" decoding="async">
         <div class="service-card-body">
-          <span class="service-icon">🕯️</span>
+          <span class="service-icon" aria-hidden="true">🕯️</span>
           <h3>Tiệc Tang Lễ</h3>
           <p>Chúng tôi thấu hiểu sự mất mát của gia đình. Đội ngũ tận tâm, kín đáo sẽ lo phần nấu nướng chu đáo cho thân nhân và khách viếng, để gia đình yên tâm lo hậu sự.</p>
           <span class="service-tag">Tư vấn tận tâm</span>
         </div>
       </div>
       <div class="service-card">
-        <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=600&q=80" alt="Liên hoan" class="service-card-img">
+        <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=600&q=80" alt="Liên hoan" class="service-card-img" loading="lazy" decoding="async">
         <div class="service-card-body">
-          <span class="service-icon">🥂</span>
+          <span class="service-icon" aria-hidden="true">🥂</span>
           <h3>Liên Hoan & Sinh Nhật</h3>
           <p>Tiệc tất niên, sinh nhật, đầy tháng, thôi nôi... Chúng tôi nấu những món dân dã đậm đà, phù hợp khẩu vị người Hưng Yên, giá cả hợp lý.</p>
           <span class="service-tag">Linh hoạt số lượng</span>
         </div>
       </div>
       <div class="service-card">
-        <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=600&q=80" alt="Sự kiện" class="service-card-img">
+        <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=600&q=80" alt="Sự kiện" class="service-card-img" loading="lazy" decoding="async">
         <div class="service-card-body">
-          <span class="service-icon">🏢</span>
+          <span class="service-icon" aria-hidden="true">🏢</span>
           <h3>Sự Kiện & Liên Hoan</h3>
           <p>Khai trương, họp mặt, hội họp cơ quan... Chúng tôi chuẩn bị và nấu ăn tại địa điểm của bạn, đảm bảo đúng giờ, đúng số lượng, đúng chất lượng.</p>
           <span class="service-tag">Phục vụ toàn Hưng Yên</span>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MENU -->
+<section class="menu" id="menu">
+  <div class="menu-inner">
+    <div class="menu-header">
+      <div class="section-label">Thực đơn gợi ý</div>
+      <h2 class="section-title">Đa dạng món ăn<br><em>theo khẩu vị của bạn</em></h2>
+      <p class="section-desc">Dưới đây là một số món chúng tôi thường xuyên chế biến. Thực đơn có thể tùy chỉnh linh hoạt theo khẩu vị, ngân sách và số lượng khách của từng bữa tiệc.</p>
+    </div>
+    <div class="menu-grid">
+      <div class="menu-category">
+        <h3>Khai Vị</h3>
+        <ul>
+          <li>Soup gà nấm</li>
+          <li>Soup hải sản</li>
+          <li>Ngô chiên</li>
+          <li>Khoai tây chiên</li>
+        </ul>
+      </div>
+      <div class="menu-category">
+        <h3>Món Tôm</h3>
+        <ul>
+          <li>Tôm sú chiên hạnh nhân</li>
+          <li>Tôm sú chiên xù</li>
+          <li>Tôm dảo chiên giòn</li>
+          <li>Tôm sú hấp bia</li>
+        </ul>
+      </div>
+      <div class="menu-category">
+        <h3>Món Cá</h3>
+        <ul>
+          <li>Cá tầm rang muối</li>
+          <li>Cá tầm hấp xì dầu</li>
+          <li>Cá song hấp xì dầu</li>
+          <li>Cá lăng chiên riềng</li>
+          <li>Cá diêu hồng chiên</li>
+          <li>Cá quả nướng giấy bạc</li>
+          <li>Cá quả sốt me</li>
+        </ul>
+      </div>
+      <div class="menu-category">
+        <h3>Món Mực</h3>
+        <ul>
+          <li>Mực chiên bơ tỏi</li>
+          <li>Mực xào</li>
+          <li>Mực ống (trứng) hấp</li>
+        </ul>
+      </div>
+      <div class="menu-category">
+        <h3>Món Bò</h3>
+        <ul>
+          <li>Bò xào cần tỏi</li>
+          <li>Bò xào măng trúc</li>
+          <li>Bò xào nụ bí</li>
+          <li>Bò xào rau muống</li>
+          <li>Nộm bò bóp thấu chua ngọt</li>
+          <li>Bò chiên kiểu Pháp</li>
+          <li>Bò hầm hạt điều khoai tây</li>
+          <li>Bò sốt tiêu, bánh bao</li>
+        </ul>
+      </div>
+      <div class="menu-category">
+        <h3>Món Bê</h3>
+        <ul>
+          <li>Bê tái chanh</li>
+          <li>Bê hấp tương gừng</li>
+          <li>Bê chao tỏi bản gang</li>
+          <li>Bê xào măng trúc</li>
+          <li>Bê xào xả ớt</li>
+          <li>Bê xào lăn</li>
+          <li>Bê hấp tía tô</li>
+        </ul>
+      </div>
+      <div class="menu-category">
+        <h3>Món Dê</h3>
+        <ul>
+          <li>Dê tái chanh</li>
+          <li>Dê hấp tương gừng</li>
+          <li>Dê hấp lá tía tô</li>
+          <li>Dê chao tỏi bản gang</li>
+          <li>Dê xào lăn</li>
+        </ul>
+      </div>
+      <div class="menu-category">
+        <h3>Món Xào Thập Cẩm</h3>
+        <ul>
+          <li>Tôm nõn, tim xào thập cẩm</li>
+          <li>Dạ dày, tim cật xào thập cẩm</li>
+          <li>Chép giòn xào nấm</li>
+          <li>Mực xào nấm thập cẩm</li>
+          <li>Hải sản xào nấm hạt điều</li>
+        </ul>
+      </div>
+      <div class="menu-category">
+        <h3>Nộm – Gỏi</h3>
+        <ul>
+          <li>Nộm ngó sen tôm thịt</li>
+          <li>Nộm ngũ sắc (bò khô)</li>
+          <li>Nộm tai (nộm khô)</li>
+          <li>Nộm sứa xoài xanh</li>
+          <li>Bắp bò bóp thấu</li>
+          <li>Nộm hoa chuối tai heo</li>
+          <li>Nộm gà xé phay</li>
+        </ul>
+      </div>
+      <div class="menu-category">
+        <h3>Đặc Sản Khác</h3>
+        <ul>
+          <li>Ốc om chuối đậu</li>
+          <li>Ốc nhồi hấp thái (mẻ)</li>
+          <li>Ba ba om chuối đậu</li>
+          <li>Ba ba rang muối</li>
+          <li>Ngan xào xả ớt (xào lăn)</li>
+          <li>Ếch rang muối</li>
+          <li>Ếch xào măng cay</li>
+          <li>Ếch chiên lá lốt</li>
+          <li>Trạch chiên lá lốt</li>
+          <li>Gà rang muối</li>
+          <li>Gà chiên mắm</li>
+          <li>Chân giò hầm thuốc bắc</li>
+          <li>Chân giò hầm xì dầu nấm</li>
+          <li>Chân giò quay, dưa muối</li>
+        </ul>
       </div>
     </div>
   </div>
@@ -153,19 +298,19 @@
     <p class="section-desc" style="color:rgba(245,234,216,0.7)">Từng bữa tiệc là một câu chuyện – chúng tôi tự hào được góp phần tạo nên những kỷ niệm ý nghĩa của bạn.</p>
     <div class="gallery-grid">
       <div class="gallery-item">
-        <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=800&q=80" alt="Tiệc cưới">
+        <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=800&q=80" alt="Tiệc cưới" loading="lazy" decoding="async">
       </div>
       <div class="gallery-item">
-        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80" alt="Món ăn">
+        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80" alt="Món ăn" loading="lazy" decoding="async">
       </div>
       <div class="gallery-item">
-        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80" alt="Bàn tiệc">
+        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80" alt="Bàn tiệc" loading="lazy" decoding="async">
       </div>
       <div class="gallery-item">
-        <img src="https://images.unsplash.com/photo-1565299507177-b0ac66763828?w=800&q=80" alt="Hải sản">
+        <img src="https://images.unsplash.com/photo-1565299507177-b0ac66763828?w=800&q=80" alt="Hải sản" loading="lazy" decoding="async">
       </div>
       <div class="gallery-item">
-        <img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=600&q=80" alt="Buffet">
+        <img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=600&q=80" alt="Buffet" loading="lazy" decoding="async">
       </div>
     </div>
   </div>
@@ -178,23 +323,23 @@
     <h2 class="section-title">Đặt tiệc dễ dàng<br><em>chỉ 4 bước</em></h2>
     <div class="process-steps">
       <div class="process-step">
-        <div class="step-circle">📞</div>
-        <h4>Liên hệ tư vấn</h4>
+        <div class="step-circle" aria-hidden="true">📞</div>
+        <h3>Liên hệ tư vấn</h3>
         <p>Gọi điện hoặc nhắn tin, chúng tôi phản hồi trong vòng 30 phút</p>
       </div>
       <div class="process-step">
-        <div class="step-circle">📋</div>
-        <h4>Lên thực đơn</h4>
+        <div class="step-circle" aria-hidden="true">📋</div>
+        <h3>Lên thực đơn</h3>
         <p>Tư vấn thực đơn phù hợp theo số khách, sở thích và ngân sách</p>
       </div>
       <div class="process-step">
-        <div class="step-circle">✍️</div>
-        <h4>Ký hợp đồng</h4>
+        <div class="step-circle" aria-hidden="true">✍️</div>
+        <h3>Ký hợp đồng</h3>
         <p>Thống nhất chi tiết, ký hợp đồng minh bạch và đặt cọc</p>
       </div>
       <div class="process-step">
-        <div class="step-circle">🍽️</div>
-        <h4>Phục vụ trọn gói</h4>
+        <div class="step-circle" aria-hidden="true">🍽️</div>
+        <h3>Phục vụ trọn gói</h3>
         <p>Chúng tôi có mặt đúng giờ, phục vụ chu đáo từ đầu đến cuối</p>
       </div>
     </div>
@@ -210,28 +355,28 @@
       <p class="section-desc">Gọi điện hoặc điền form – chúng tôi sẽ tư vấn và báo giá ngay trong ngày. Hoàn toàn miễn phí, không ràng buộc.</p>
       <div style="margin-top: 2.5rem;">
         <div class="contact-info-item">
-          <div class="contact-info-icon">📞</div>
+          <div class="contact-info-icon" aria-hidden="true">📞</div>
           <div class="contact-info-text">
             <strong>Điện thoại / Zalo</strong>
-            <span>0901 234 567</span>
+            <span>0981 635 600</span>
           </div>
         </div>
         <div class="contact-info-item">
-          <div class="contact-info-icon">📍</div>
+          <div class="contact-info-icon" aria-hidden="true">📍</div>
           <div class="contact-info-text">
             <strong>Địa chỉ</strong>
             <span>Tỉnh Hưng Yên (phục vụ toàn tỉnh)</span>
           </div>
         </div>
         <div class="contact-info-item">
-          <div class="contact-info-icon">🕐</div>
+          <div class="contact-info-icon" aria-hidden="true">🕐</div>
           <div class="contact-info-text">
             <strong>Giờ làm việc</strong>
             <span>Thứ 2 – Chủ nhật: 7:00 – 21:00</span>
           </div>
         </div>
         <div class="contact-info-item">
-          <div class="contact-info-icon">📧</div>
+          <div class="contact-info-icon" aria-hidden="true">📧</div>
           <div class="contact-info-text">
             <strong>Email</strong>
             <span>baodalcatering@gmail.com</span>
@@ -243,17 +388,17 @@
       <div class="contact-form">
         <div class="form-row">
           <div class="form-group">
-            <label>Họ và tên *</label>
-            <input type="text" placeholder="Nguyễn Văn A">
+            <label for="cf-name">Họ và tên <span aria-hidden="true">*</span></label>
+            <input type="text" id="cf-name" name="fullName" autocomplete="name" placeholder="Nguyễn Văn A" required>
           </div>
           <div class="form-group">
-            <label>Số điện thoại *</label>
-            <input type="tel" placeholder="09xx xxx xxx">
+            <label for="cf-phone">Số điện thoại <span aria-hidden="true">*</span></label>
+            <input type="tel" id="cf-phone" name="phone" autocomplete="tel" placeholder="09xx xxx xxx" required>
           </div>
         </div>
         <div class="form-group">
-          <label>Loại sự kiện *</label>
-          <select>
+          <label for="cf-event-type">Loại sự kiện <span aria-hidden="true">*</span></label>
+          <select id="cf-event-type" name="eventType" required>
             <option value="">-- Chọn loại sự kiện --</option>
             <option>Tiệc cưới</option>
             <option>Tang lễ</option>
@@ -264,23 +409,25 @@
         </div>
         <div class="form-row">
           <div class="form-group">
-            <label>Ngày tổ chức</label>
-            <input type="date">
+            <label for="cf-date">Ngày tổ chức</label>
+            <input type="date" id="cf-date" name="eventDate">
           </div>
           <div class="form-group">
-            <label>Số lượng khách</label>
-            <input type="number" placeholder="VD: 200">
+            <label for="cf-guests">Số lượng khách</label>
+            <input type="number" id="cf-guests" name="guestCount" min="1" placeholder="VD: 200">
           </div>
         </div>
         <div class="form-group">
-          <label>Ghi chú thêm</label>
-          <textarea placeholder="Yêu cầu đặc biệt, địa điểm tổ chức, ngân sách dự kiến..."></textarea>
+          <label for="cf-notes">Ghi chú thêm</label>
+          <textarea id="cf-notes" name="notes" placeholder="Yêu cầu đặc biệt, địa điểm tổ chức, ngân sách dự kiến..."></textarea>
         </div>
-        <button class="form-submit">Gửi yêu cầu báo giá →</button>
+        <button class="form-submit" type="button">Gửi yêu cầu báo giá →</button>
       </div>
     </div>
   </div>
 </section>
+
+</main>
 
 <!-- FOOTER -->
 <footer>
@@ -292,6 +439,7 @@
     <div class="footer-links">
       <a href="#about">Giới thiệu</a>
       <a href="#services">Dịch vụ</a>
+      <a href="#menu">Thực đơn</a>
       <a href="#gallery">Hình ảnh</a>
       <a href="#process">Quy trình</a>
       <a href="#contact">Liên hệ</a>
